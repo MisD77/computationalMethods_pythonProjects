@@ -1,0 +1,11 @@
+#!"/Users/dikshya/Dropbox/Dikshya/NEIU/Spring 2018/327 - Comp Method in Biology/Homeworks/hw5/reverse_complement/venv/bin/python3.6"
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from wheel.tool import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
